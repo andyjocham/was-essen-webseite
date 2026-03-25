@@ -19,17 +19,19 @@
   border: 1px solid rgba(255, 255, 255, 0.72);
   border-radius: 30px;
   background:
-    radial-gradient(circle at 18% 20%, rgba(137, 180, 250, 0.24), transparent 28%),
-    radial-gradient(circle at 82% 18%, rgba(250, 179, 135, 0.22), transparent 28%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.56));
+    radial-gradient(circle at 24% 28%, rgba(255, 255, 255, 0.88) 0 52px, rgba(226, 211, 188, 0.4) 53px 58px, transparent 59px),
+    radial-gradient(circle at 82% 78%, rgba(255, 255, 255, 0.82) 0 40px, rgba(226, 211, 188, 0.32) 41px 45px, transparent 46px),
+    linear-gradient(180deg, rgba(255, 252, 246, 0.92), rgba(249, 243, 233, 0.72));
 }
 
 .shot-stage--wasessen {
   background:
-    radial-gradient(circle at 18% 20%, rgba(127, 176, 255, 0.22), transparent 28%),
-    radial-gradient(circle at 82% 18%, rgba(255, 178, 102, 0.22), transparent 28%),
-    radial-gradient(circle at 50% 88%, rgba(150, 217, 119, 0.18), transparent 34%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.56));
+    radial-gradient(circle at 24% 28%, rgba(255, 255, 255, 0.88) 0 54px, rgba(226, 211, 188, 0.42) 55px 60px, transparent 61px),
+    radial-gradient(circle at 82% 78%, rgba(255, 255, 255, 0.82) 0 42px, rgba(226, 211, 188, 0.34) 43px 47px, transparent 48px),
+    radial-gradient(circle at 16% 14%, rgba(239, 154, 72, 0.18), transparent 24%),
+    radial-gradient(circle at 84% 16%, rgba(142, 191, 90, 0.16), transparent 24%),
+    radial-gradient(circle at 54% 86%, rgba(114, 197, 193, 0.14), transparent 26%),
+    linear-gradient(180deg, rgba(255, 252, 246, 0.94), rgba(248, 240, 229, 0.7));
 }
 
 .store-shot {
@@ -67,7 +69,10 @@
   padding: 14px;
   border: 1px solid rgba(124, 127, 147, 0.12);
   border-radius: 30px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.54));
+  background:
+    radial-gradient(circle at 18% 22%, rgba(239, 154, 72, 0.08), transparent 24%),
+    radial-gradient(circle at 80% 78%, rgba(142, 191, 90, 0.08), transparent 22%),
+    linear-gradient(180deg, rgba(255, 253, 249, 0.88), rgba(249, 243, 234, 0.62));
 }
 
 .image-frame--tall img {
