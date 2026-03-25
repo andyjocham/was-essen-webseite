@@ -1,0 +1,125 @@
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 24px rgba(76, 79, 105, 0.18);
+}
+
+.hero-copy {
+  display: grid;
+  align-content: start;
+}
+
+.shot-stage {
+  position: relative;
+  min-height: 450px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(137, 180, 250, 0.24), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(250, 179, 135, 0.22), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.56));
+}
+
+.shot-stage--wasessen {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(127, 176, 255, 0.22), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(255, 178, 102, 0.22), transparent 28%),
+    radial-gradient(circle at 50% 88%, rgba(150, 217, 119, 0.18), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.56));
+}
+
+.store-shot {
+  position: absolute;
+  width: 44%;
+  border: 1px solid rgba(255, 255, 255, 0.68);
+  border-radius: 30px;
+  box-shadow: 0 20px 42px rgba(76, 79, 105, 0.18);
+}
+
+.store-shot--back {
+  top: 12%;
+  left: 2%;
+  transform: rotate(-8deg);
+}
+
+.store-shot--front {
+  top: 2%;
+  left: 29%;
+  z-index: 2;
+}
+
+.store-shot--side {
+  right: 2%;
+  bottom: 4%;
+  transform: rotate(9deg);
+}
+
+.screenshot-card {
+  overflow: hidden;
+}
+
+.image-frame {
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px solid rgba(124, 127, 147, 0.12);
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.54));
+}
+
+.image-frame--tall img {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  border-radius: 26px;
+  box-shadow: 0 18px 36px rgba(76, 79, 105, 0.16);
+}
+
+.screen-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  align-items: start;
+  justify-items: center;
+}
+
+.screen-pair img {
+  width: 100%;
+  max-width: 256px;
+  margin: 0 auto;
+  border-radius: 26px;
+  box-shadow: 0 18px 36px rgba(76, 79, 105, 0.16);
+}
+
+@media (max-width: 960px) {
+  .shot-stage {
+    min-height: 380px;
+  }
+
+  .screen-pair {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .store-shot {
+    width: 54%;
+  }
+
+  .store-shot--back {
+    top: 20%;
+    left: -4%;
+  }
+
+  .store-shot--front {
+    left: 23%;
+  }
+
+  .store-shot--side {
+    right: -3%;
+    bottom: 6%;
+  }
+}
